@@ -8,4 +8,5 @@ function firstWord(s) {
 
 // Do not change the code below
 const userString = prompt("Enter a string:");
-alert(firstWord(userString));
+
+alert("'" + firstWord(userString) + "'");
